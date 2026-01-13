@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "reachy_basic_peek_a_boo"
+version = "0.1.0"
+description = "Reachy Mini plays peek-a-boo using face detection"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "reachy-mini",
+    "opencv-python"
+]
+keywords = ["reachy-mini-app"]
+
+[project.entry-points."reachy_mini_apps"]
+reachy_basic_peek_a_boo = "reachy_basic_peek_a_boo.main:ReachyBasicPeekABoo"
+
+[tool.setuptools]
+package-dir = { "" = "." }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+reachy_basic_peek_a_boo = ["**/*"] # Also include all non-.py files

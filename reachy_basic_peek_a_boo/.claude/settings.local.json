@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m reachy_basic_peek_a_boo.main:*)",
+      "Bash(python:*)",
+      "Bash(pip show:*)",
+      "Bash(reachy-mini-daemon:*)",
+      "Bash(mjpython -m reachy_mini.daemon.app.main:*)",
+      "Bash(cat:*)",
+      "Bash(kill:*)",
+      "Bash(curl:*)",
+      "Bash(PYTHONUNBUFFERED=1 python:*)",
+      "Bash(pkill:*)",
+      "Bash(grep:*)",
+      "Bash(reachy-mini-app-assistant check:*)"
+    ]
+  }
+}
