@@ -20,7 +20,7 @@ Reachy hides with its head down. When it detects a face, it quickly pops up, wig
 ### Clone the Repository
 
 ```bash
-git clone <your-github-repo-url>
+git clone https://github.com/chandrapavan1104/Peek-a-boo
 cd reachy_basic_peek_a_boo
 ```
 
